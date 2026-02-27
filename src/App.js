@@ -6,7 +6,7 @@ import 'leaflet/dist/leaflet.css';
 import 'leaflet-routing-machine';
 import 'leaflet-routing-machine/dist/leaflet-routing-machine.css';
 
-const socket = io('http://localhost:3002');
+const socket = io('https://tech-titans-api-x86h.onrender.com');
 
 // --- 1. SMART ICONS (Outside the App component) ---
 // This function returns a different icon based on the emergency type
